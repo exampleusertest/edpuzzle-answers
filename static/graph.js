@@ -18,7 +18,7 @@ function init() {
   wrapper.appendChild(canvas);
   document.getElementById("js_warning").remove();
 
-  let url = "https://data.jsdelivr.com/v1/package/gh/ading2210/edpuzzle-answers/stats/";
+  let url = "https://data.jsdelivr.com/v1/package/gh/exampleusertest/edpuzzle-answers/stats/";
   categories = ["year", "month", "week", "day"];
   for (let i=0; i<categories.length; i++) {
     let category = categories[i];
